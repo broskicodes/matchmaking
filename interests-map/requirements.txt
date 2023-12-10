@@ -1,0 +1,12 @@
+werkzeug
+gunicorn
+seaborn
+scipy
+numpy
+scikit-learn
+umap-learn
+matplotlib
+collections-extended
+flask
+requests
+sentence-transformers

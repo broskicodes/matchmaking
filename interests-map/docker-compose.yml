@@ -1,0 +1,11 @@
+services:
+  flask-app:
+    image: interests-api  # Replace with your Flask app's Docker image name
+    ports:
+      - "4000:5000"  # Map the port of the Flask app to the host
+    volumes:
+      - ppl-data-vol:/app/data  # Replace '/app/data' with the path where you want the volume mounted in the container
+
+volumes:
+  ppl-data-vol:  # This is the named volume for persistent data
+
